@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+:root {
+    --c1: #d6dde2;
+    --c2: #588fd0;
+    --fs: 24px;
+    --h1: 96px;
+    --h2: 64px;
+    --h3: 42px;
+}
+
+* {
+    user-select: none;
+    font-family: 'Ubuntu Mono';
+    background: var(--c1);
+    color: var(--c2);
+    font-size: var(--fs);
+}
+
+.title {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+hr {
+    width: 90%;
+    border-radius: 10px;
+    border: 10px solid var(--c2);
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: var(--h1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--h2);
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: var(--h3);
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: 7px solid var(--c2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+p {
+    margin: 0;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--c2);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--c2);
+}
+
+::-webkit-scrollbar-track{
+    background: var(--c1);
+    border-radius: 15px;
+}
+
+#cname {
+    padding: 3px;
+    color: var(--c2);
+    border-radius: 10px;
+    background-color: var(--c1);
+    cursor: pointer;
+    transition: .15s;
+}
+
+#cname:hover {
+    background-color: #222222;
+    transition: .15s;
+}
+
