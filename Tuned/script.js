@@ -15,7 +15,7 @@ function addCard(name, description, section, cardId) {
     <div class="card" id="${cardId}">
         <center>
             <div class="cname">
-                <h3 id="cname" onclick="alert('Share Link:\\n${window.location.href + '#' + cardId}');">${name}</h3>
+                <h3 id="cname" onclick="prompt('Share Link:', '${window.location.href + '#' + cardId}');">${name}</h3>
             </div>
             <hr style="border: 8px solid var(--c2); width: 95%;">
             <div class="cdesc">
