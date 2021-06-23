@@ -95,3 +95,20 @@ p {
     transition: .15s;
 }
 
+button {
+    background: var(--c1);
+    color: var(--c2);
+    border: 7px solid var(--c2);
+    outline: none;
+    padding: 10px;
+    transition: .15s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: var(--c2);
+    color: var(--c1);
+    transition: .15s;
+}
+
